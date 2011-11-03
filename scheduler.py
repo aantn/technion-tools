@@ -1,14 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf8
 #
-# a mostly-working iCal exporter for Technion student schedules
-# scrapes the Technion's website and (poorly) parses the html
-# to use: add your username/password to the bottom of the file
-# after running, there will be a test.ics file in your home directory
-#
-# TODO: properly parse table cells 
-# TODO: use lxml instead of beautiful soup
-# TODO: command line parameters
+# See README.md for docs
 
 import datetime
 import os
